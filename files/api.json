@@ -1,9 +1,9 @@
 {
   "ogloszenie1": {
-    "nazwa": "1",
-    "opis": "d",
-    "zdjecie": "b",
-    "data": "01.01.1970"
+    "nazwa": "Osiagniecia",
+    "opis": "Dodano osiągnięcia do strony",
+    "zdjecie": "https://github.com/LuckyMan612/Zombies-Infested/blob/main/files/shitimages/obraz_2023-01-24_234904460.png?raw=true",
+    "data": "24.01.2023"
   },
   "ogloszenie2": {
     "nazwa": "2",
