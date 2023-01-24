@@ -1,78 +1,38 @@
-        /* stylizacja strony */
-        body {
-            background-color: #F5F5F5;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-        }
-        .header h2 {
-            margin: 0;
-        }
-        .header a {
-            color: #fff;
-            text-decoration: none;
-        }
-        .header a:hover {
-            color: #ccc;
-        }
-        .main-content {
-            padding: 20px;
-        }
-        .main-content h3 {
-            margin-top: 0;
-        }
-        .main-content img {
-            max-width: 100%;
-        }
-        .main-content p {
-            line-height: 1.5;
-        }
-        .main-content a {
-            color: #333;
-        }
-        .main-content a:hover {
-            color: #0088cc;
-        }
-        .download-section {
-            background-color: #0088cc;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        .download-section a {
-            background-color: #fff;
-            color: #0088cc;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .download-section a:hover {
-            background-color: #0066aa;
-            color: #fff;
-        }
-        .footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        .footer a {
-            color: #fff;
-            text-decoration: none;
-        }
-        .footer a:hover {
-            color: #ccc;
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin-right: 1em;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+section {
+    margin: 2em;
+}
+section h2 {
+    margin-top: 0;
+}
+section img {
+    width: 100%;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
