@@ -2,6 +2,8 @@ body {
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
     color: #333333;
+    display: flex;
+    justify-content: center;
 }
 
 header {
@@ -88,4 +90,8 @@ section#advantages ul li i {
   font-size: 2em;
   margin-bottom: 15px;
   color: #3399ff;
+}
+.center {
+    display: flex;
+    justify-content: center;
 }
