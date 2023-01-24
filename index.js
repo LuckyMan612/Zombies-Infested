@@ -1,16 +1,12 @@
-$(document).ready(function(){
-  // Pobierz dane z API
-  $.getJSON("https://raw.githubusercontent.com/LuckyMan612/Zombies-Infested/main/files/api.json", function(data){
-    // Pobierz tylko pierwsze 3 ogłoszenia
-    var announcements = data.slice(0,3);
-    // Iteruj przez ogłoszenia i dodaj je do kontenera
-    announcements.forEach(function(announcement){
-      $("#announcementContainer").append(
-        '<div class="announcement">' +
-          '<h3>' + announcement.title + '</h3>' +
-          '<p>' + announcement.description + '</p>' +
-        '</div>'
-      );
-    });
-  });
+$.getJSON("ogloszenia.json", function(data) {
+   var ogloszenia = "";
+   $.each(data, function(key, value) {
+      ogloszenia += "<div class='ogloszenie'>";
+      ogloszenia += "<h3>" + value.nazwa + "</h3>";
+      ogloszenia += "<p>" + value.opis + "</p>";
+      ogloszenia += "<img src='" + value.zdjecie + "' alt='" + value.nazwa + "'>";
+      ogloszenia += "<p>" + value.data + "</p>";
+      ogloszenia += "</div>";
+   });
+   $("#ogloszenia").append(ogloszenia);
 });
