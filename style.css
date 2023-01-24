@@ -96,3 +96,23 @@ section#advantages ul li i {
     justify-content: center;
     align-items: center;
 }
+#announcements {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+#announcementContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.announcement {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  text-align: left;
+}
