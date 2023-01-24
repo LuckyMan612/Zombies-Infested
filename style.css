@@ -94,4 +94,5 @@ section#advantages ul li i {
 .center {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
