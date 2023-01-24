@@ -116,3 +116,12 @@ section#advantages ul li i {
   border: 1px solid #ccc;
   text-align: left;
 }
+.ogloszenie {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.ogloszenie img {
+  max-width: 100%;
+}
