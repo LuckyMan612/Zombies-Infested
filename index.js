@@ -1,4 +1,4 @@
-$.getJSON("ogloszenia.json", function(data) {
+$.getJSON("https://raw.githubusercontent.com/LuckyMan612/Zombies-Infested/main/files/api.json", function(data) {
    var ogloszenia = "";
    $.each(data, function(key, value) {
       ogloszenia += "<div class='ogloszenie'>";
