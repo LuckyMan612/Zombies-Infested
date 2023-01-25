@@ -6,7 +6,8 @@ var screenshots = [
   "https://github.com/LuckyMan612/Zombies-Infested/blob/main/files/game/images/obraz_2023-01-25_122403069.png?raw=true",
   "https://github.com/LuckyMan612/Zombies-Infested/blob/main/files/game/images/obraz_2023-01-25_122417257.png?raw=true",
   "https://github.com/LuckyMan612/Zombies-Infested/blob/main/files/game/images/obraz_2023-01-25_122427677.png?raw=true",
-  "https://github.com/LuckyMan612/Zombies-Infested/blob/main/files/game/images/obraz_2023-01-25_122458297.png?raw=true"
+  "https://github.com/LuckyMan612/Zombies-Infested/blob/main/files/game/images/obraz_2023-01-25_122458297.png?raw=true",
+  "https://github.com/LuckyMan612/Zombies-Infested/blob/main/files/game/images/obraz_2023-01-25_124122963.png?raw=true"
 ];
 
 // Iterujemy przez tablicę i dodajemy zdjęcia do sekcji
