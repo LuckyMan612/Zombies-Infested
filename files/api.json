@@ -1,15 +1,15 @@
 {
   "ogloszenie1": {
     "nazwa": "Ogłoszenia",
+    "opis": "Dodano ogłoszenia w grze",
+    "zdjecie": "https://github.com/LuckyMan612/Zombies-Infested/blob/main/files/shitimages/obraz_2023-01-25_120901435.png?raw=true",
+    "data": "25.01.2023"
+  },
+  "ogloszenie2": {
+    "nazwa": "Ogłoszenia",
     "opis": "Dodano ogłoszenia do strony",
     "zdjecie": "https://github.com/LuckyMan612/Zombies-Infested/blob/main/files/shitimages/obraz_2023-01-24_234904460.png?raw=true",
     "data": "24.01.2023"
-  },
-  "ogloszenie2": {
-    "nazwa": "2",
-    "opis": "d",
-    "zdjecie": "b",
-    "data": "01.01.1970"
   },
   "ogloszenie3": {
     "nazwa": "3",
